@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(217, 54%, 11%);
+  /* margin: 6rem auto ; */
+}
+
+.main {
+  background: hsl(216, 50%, 16%);
+  width: 33rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  /* box-shadow: 0px 30px 100px hsl(217, 54%, 11%); */
+}
+
+.main_header {
+  position: relative;
+  width: 100%;
+  height: 29rem;
+  margin-bottom: 3rem;
+}
+
+.main_header-equilibrium {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.main_header-iconview {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: 1rem;
+}
+
+.main_header-iconview:hover {
+  background: url('./images/icon-view.svg') no-repeat center center, hsla(178, 100%, 50%, .5);
+  cursor: pointer;
+
+}
+
+.main_article-heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.main_article-heading:hover, .main_footer-author a:hover, .attribution a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.main_article-description {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.main_article_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.main_article_footer-etherum {
+  color: hsl(178, 100%, 50%);
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.main_article_footer-oclock {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.main_article_footer-etherum img {
+  margin-right: 1rem;
+}
+
+.main_article_footer-oclock img {
+  margin-right: 1rem;
+}
+
+.main_footer {
+  border-top: .1rem solid hsl(215, 32%, 27%);
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.main_footer-avatar {
+  width: 4rem;
+  border-radius: 50%;
+  border: .2rem solid hsl(0, 0%, 100%);
+}
+
+.main_footer-author {
+  font-size: 1.6rem;
+  color: hsl(215, 51%, 70%);
+  margin-left: 2rem;
+}
+
+.main_footer-author a {
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.attribution {
+   font-size: 11px; 
+   text-align: center; 
+   position: relative;   
+   color: hsl(215, 51%, 70%);
+
+}
+.attribution a {
+   font-size: 11px; 
+   color: hsl(228, 45%, 44%); 
+}
